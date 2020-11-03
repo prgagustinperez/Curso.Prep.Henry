@@ -61,7 +61,7 @@ function esEntero(numero) {
   // De lo contrario, devuelve "false"
   // Pista: Puedes resolver esto usando `Math.floor`
   // Tu código:
-  if(numero % 1 === 0){
+  if(Math.floor(numero)){
     return true;
   }
   return false;
